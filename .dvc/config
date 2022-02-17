@@ -1,0 +1,8 @@
+[core]
+    remote = storage
+['remote "internal_data"']
+    url = /vstorage/dvc/internal_data/
+['remote "gstorage"']
+    url = gs://dvc_test_ngoanpv/internal_2/
+['remote "storage"']
+    url = gs://dvc_test_ngoanpv/internal_3/
